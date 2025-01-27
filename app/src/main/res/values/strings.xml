@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Popular Fashion</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="continues">Continue</string>
+    <string name="newOne">New</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragments.SplashFragment">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_36sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:gravity="center"
+        android:text="Popular Fashion"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/product_sans_medium"
+        android:textSize="@dimen/_11ssp"
+        />
+
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/startBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_36sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:gravity="center"
+        android:text="@string/continues"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_11ssp"
+        android:fontFamily="@font/product_sans"
+        android:background="@drawable/button"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
